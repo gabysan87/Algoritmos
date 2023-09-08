@@ -1,3 +1,5 @@
+// FIXME: Reemplazar todos los puntos
+// // 
 // Se supone que el código proporcionado reemplaza todos los puntos .en la cadena especificada str con guiones-
 
 // Pero no funciona correctamente.
