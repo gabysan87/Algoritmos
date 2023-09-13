@@ -13,4 +13,3 @@ console.log(findLargerNumber([42, 7, 13, 99, 20]))
 
 
 // Se utiliza el metodo sort para ordenar los elementos,  se accede al primer elemento del arreglo ordenado usando [0], que es el número más grande, y se devuelve como resultado de la función.
-// se accede al primer elemento del arreglo ordenado usando [0], que es el número más grande, y se devuelve como resultado de la función.
