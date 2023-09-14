@@ -49,7 +49,7 @@ console.log(persona2);
 
 // 5-Iterar sobre propiedades
 
-// Itera sobre las propiedades del objeto "person1" e imprime sus valores en la consola
+// Itera sobre las propiedades del objeto "persona" e imprime sus valores en la consola
 
 const persona = {
     nombre: "Carlos",
@@ -62,7 +62,6 @@ for (const key in persona) {
 }
 
 // 6 - Copiar un objeto:
-
 // Enunciado: Crea un nuevo objeto llamado "copiaPersona" que sea una copia del objeto "persona".
 
 const person6 = {
@@ -88,7 +87,6 @@ if ('profesion' in person7) {
 }
 
 // 8- Calcular el número de propiedades:
-
 // Enunciado: Calcula y muestra en la consola el número de propiedades del objeto "persona".
 
 
@@ -104,7 +102,6 @@ console.log(`El objeto tiene ${numPropiedades} propiedades`);
 
 
 // 9 - Combinar dos objetos:
-
 // Enunciado: Crea un nuevo objeto que combine las propiedades de "persona" y "direccion".
 
 
