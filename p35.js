@@ -5,5 +5,13 @@
 
 const numberRanger = (num) => {
 
+    if (num < 10 || num > 20){
+        return true 
+    }
+    else {
+        return false
+    }
+
 }
 console.log(numberRanger(8))
+console.log(numberRanger(18))

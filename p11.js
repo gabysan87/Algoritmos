@@ -4,11 +4,11 @@
 
 const verifyNumber = (num) => {
   return num > 0 ? "Es positivo" : "Es negativo"
-  if (num > 0) {
-    return "Es positivo";
-  } else {
-    return "Es negativo";
-  }
+  // if (num > 0) {
+  //   return "Es positivo";
+  // } else {
+  //   return "Es negativo";
+  // }
 };
 
 console.log(verifyNumber(10));

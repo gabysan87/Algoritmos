@@ -11,10 +11,21 @@ const books = [
 
 const sheare = (a, b) => a.año - b.año
 const sheareBook = (arr) => {
-    const {autor, ...objectFound} = arr.sort(sheare)[0]
-return objectFound
+//     const {autor, ...objectFound} = arr.sort(sheare)[0]
+// return objectFound
+const {título, año} = arr.sort(sheare)[0]
+return {título, año} 
     }
 
+const sheareBooksReduce = (arr) => { 
+return arr.reduce((acc,item) => { 
+    acc = acc.año < item.año ? acc : item
+   const {título, año} = acc
+   return {título, año} 
+})
+}
+
+console.log(sheareBooksReduce(books))
 console.log(sheareBook(books))
 
 
