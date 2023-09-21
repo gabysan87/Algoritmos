@@ -4,15 +4,15 @@
 
 const greaterThanOrEqualToZero = (number) => {
 
-  // return number === 0 ? "Es igual a cero" : (number > 0 ? "Es mayor que cero" : "Es menor que cero");
+  return number === 0 ? "Es igual a cero" : number > 0 ? "Es mayor que cero" : "Es menor que cero"
 
-  if (number === 0) {
-    return "Es igual a cero";
-  } else if (number > 0) {
-    return "Es mayor que cero";
-  } else {
-    return "Es menor que cero";
-  }
+  // if (number === 0) {
+  //   return "Es igual a cero";
+  // } else if (number > 0) {
+  //   return "Es mayor que cero";
+  // } else {
+  //   return "Es menor que cero";
+  // }
 };
 
 console.log(greaterThanOrEqualToZero(0));

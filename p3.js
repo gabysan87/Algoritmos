@@ -7,7 +7,7 @@
 const removeDuplicate = (number) => {
   const newNumber = new Set(number);
 
-  return (result = [...newNumber]);
+  return [...newNumber]
 };
 
 console.log(removeDuplicate([1, 2, 2, 3, 4, 4, 5]));
