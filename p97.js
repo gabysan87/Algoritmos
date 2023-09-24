@@ -20,8 +20,8 @@ const posts = [
 
 //   Solicita solo las etiquetas (tags)
 
-const result = posts.reduce((allTags, post) => {
-    return Array.from(new Set([...allTags, ...post.tags]))
+const result = posts.reduce((acc, curr) => {
+    return Array.from(new Set([...acc, ...curr.tags]))
 }, [])
 
 console.log(result)
