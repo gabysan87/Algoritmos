@@ -1,4 +1,5 @@
-// /En este kata, crearemos una función para probar si un período se retrasa.
+// ¿Se te ha retrasado la regla?
+// En este kata, crearemos una función para probar si un período se retrasa.
 
 // Nuestra función tomará tres parámetros:
 
@@ -15,7 +16,8 @@ const periodIsLate = (last, today, cycleLength) => {
     const diasTranscurridos = resultDay/(24 * 60 * 60 * 1000)//horas,minutos*hora,segundos,milisegundos
     return Math.round(diasTranscurridos) > cycleLength
   }
- 
+  // return (today-last)/86400000>cycleLength
+  
 console.log(periodIsLate(new Date(2016, 6, 13), new Date(2016, 7, 16), 35))
 
 
