@@ -19,6 +19,8 @@ const posts = [
   ]
 
 //   const result = posts.filter((item) => item.tags.includes("angular"))
-  const result = posts.filter((item) => item.image !== undefined)
+
+// devuelve el objeto que tengan imagen
+  const result = posts.filter((item) => item.image )
   console.log(result)
   
