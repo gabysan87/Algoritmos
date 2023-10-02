@@ -1,4 +1,3 @@
-
 // Abreviar un nombre de dos palabras
 // Escribe una función para convertir un nombre en iniciales. Este kata requiere estrictamente dos palabras con un espacio entre ellas.
 
@@ -10,12 +9,12 @@
 
 // patrick feeney=>P.F
 
-const abbrevName = (name) =>{
-
-   return name.split(' ').map(item => item[0].toUpperCase()).join('.')
-   
-
-}
+const abbrevName = (name) => {
+  return name
+    .split(" ")
+    .map((item) => item[0].toUpperCase())
+    .join(".");
+};
 
 console.log(abbrevName("Sam Harris"));
 console.log(abbrevName("Patrick Feenan"));

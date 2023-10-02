@@ -15,6 +15,9 @@ const positiveSum = (arr)  => {
     });
     return suma;
   }
+// const result = arr.reduce((acc, curr)=> acc + curr)
+// return result > 0
+
  
 
 
