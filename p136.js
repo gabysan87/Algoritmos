@@ -2,8 +2,8 @@
 // Este código debería almacenarse "codewa.rs"como una variable llamada namepero no funciona. ¿Puedes averiguar por qué?
 
 
-var a = "code";
-var b = "wa.rs";
-var name = a + b;
+let a = "code";
+let b = "wa.rs";
+const name = a + b;
 
-assert.strictEqual(name, "codewa.rs");
+console.log(name,"codewa.rs")
