@@ -15,11 +15,14 @@ console.log(userNumber([8, 3, 12, 5, 9, 15]))
 // Salida esperada: La suma de los elementos es 20
 
 const sumNumber = (arr) => {
+
     return arr.reduce((acc, curr) => {
        let result = acc + curr 
-       return result  
-        console.log("acumulador", acc)
-    },0)
+       console.log("acumulador", acc)
+       console.log("valoractual", curr)
+       return result
+        
+    })
 }
 
-console.log(sumNumber([2, 4, 6, 8]))
+console.log(sumNumber([700555, 4, 6, 8]))

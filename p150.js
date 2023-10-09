@@ -7,11 +7,10 @@
 const calculateFactorial = (n) => {
   let factorial = 1;
   for (let i = 1; i <= n; i++) {
-    factorial *= i;
+    factorial = factorial * i;
   }
 
   return factorial;
 };
 
 console.log(calculateFactorial(5));
-
