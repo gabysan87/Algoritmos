@@ -1,4 +1,4 @@
-// declara una variable que reciba como parametro un array y un numero multiplicador donde el numero se a va a multiplicar por cada elemento de ese array 
+// declara una variable que reciba como parametro un array y un numero multiplicador donde el numero se va a multiplicar por cada elemento de ese array 
 
 
 const numberMultiplique = (arr, num) => {
@@ -6,6 +6,8 @@ const numberMultiplique = (arr, num) => {
 }
 
 console.log(numberMultiplique([2,3,4],5))
+
+// otra opción para resolver con bucle for 
 
 const numberMultiplique1 = (arr, num) => {
     let result = []
