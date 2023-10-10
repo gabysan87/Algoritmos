@@ -8,13 +8,11 @@
         return true
     }
 
-
 console.log(primeNumbers([1,2,3,4,5,6,7,8,9]))
 
 
 //Extraer los numeros primos:
 // verificar en un array de numeros cuales son numeros primos 
-
 
 const numberPrime = (num) => {
 
