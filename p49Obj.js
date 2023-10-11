@@ -78,7 +78,7 @@ else{
 
 // Ejercicio 7: Iterar sobre las propiedades de un objeto
 
-// Enunciado: Itera sobre las propiedades del objeto coche e imprime el nombre de cada propiedad y su valor.
+// Enunciado: Itera sobre las propiedades del objeto auto e imprime el nombre de cada propiedad y su valor.
 
 const auto = {
     marca: "Toyota",

@@ -24,15 +24,12 @@ console.log(person1.nombre);
 
 //3 Agregar una propiedad
 // Agrega una propiedad "propiedad" al objeto "persona"
-
 const persona1 = {
   nombre: "Pedro",
   edad: 35,
   ciudad: "Sevilla",
 };
-
 persona1.profesion = "Ingeniero";
-
 console.log(persona1);
 
 // 4 - Eliminar una propiedad
