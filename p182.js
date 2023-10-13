@@ -7,6 +7,6 @@
 // div: 2/
 
 const operations = (num1, num2) => {
-    return `Suma: ${num1 + num2}, Resta: ${num1 - num2}, Multiplicacion: ${num1 * num2}, Division: ${num1 / num2} `
+    return `Suma: ${num1 + num2}, Resta: ${num1 - num2}, Multiplicacion: ${num1 * num2}, Division: ${num1 / num2}`
 }
 console.log(operations(2,2))

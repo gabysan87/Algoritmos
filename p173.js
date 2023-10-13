@@ -15,7 +15,6 @@ console.log(factorial(5))
 const factorial2 = (num) => {
     if (num < 2) return 1;
     return num * factorial(num -1)
-
 }
 console.log(factorial2(5))
     

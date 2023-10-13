@@ -7,8 +7,10 @@ const objs = [{
     edad: 10
 }]
 
-const result2 = objs.reduce ( (acc, curr) => {
-    return acc += curr.edad
+const result2 = objs.reduce ( (acc, elementactual) => {
+    return acc += elementactual.edad
 },0)
 
 console.log(result2)
+
+// array.reduce(callback(acumulador, valor actual, índiceActual , array) [, valorInicial])
