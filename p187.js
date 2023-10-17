@@ -4,11 +4,10 @@
 const bigToSmall = (arr) => {
     //coding here...
 
-    return  [].concat(...arr)
-    // .sort((a, b) => b - a).join('>');
+    return  [].concat(...arr).sort((a, b) => b - a).join('>');
   }
 
 
   console.log(bigToSmall([[1,2],[3,4],[5,6]]))
 
-//   primero coloco un array vacio para luego concatenar las matrices, con el spread me traigo la copia del array, lo siguiente es ordenar de forma ascendente con el .sort y al final utilizo el join para ingresar el separador >
+//   primero coloco un array vacio para luego concatenar las matrices, con el spread me traigo la copia del array, lo siguiente es ordenar de forma ascendente con el metodo .sort y al final utilizo el metodo join para ingresar el separador >
