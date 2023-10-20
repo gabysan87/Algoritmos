@@ -14,7 +14,8 @@
 // ¡Buena suerte!
 
 const solve = (arr) => {
-    return [...new Set(arr)]
+    // return arr.filter((element, index) => arr.lastIndexOf(element) === index);
+    return  [...new Set(arr.reverse())].reverse()
   }
 
 console.log(solve([3,4,4,3,6,3]));

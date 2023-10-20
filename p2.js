@@ -6,7 +6,8 @@
 
 const findLargerNumber = (number) => {
 
-   return number.sort((a,b)=> b-a)[0]
+return Math.max(...number)
+   // return number.sort((a,b)=> b-a)[0]
 }
 
 console.log(findLargerNumber([42, 7, 13, 99, 20]))
