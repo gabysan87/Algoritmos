@@ -16,6 +16,19 @@ const libro = {
 
 //For In
 
-for (let prop in libro){
-    console.log(`La prop ${prop} contiene: ${libro[prop]}`)
-}
+// for (let prop in libro){
+//     console.log(`La prop ${prop} contiene: ${libro[prop]}`)
+// }
+
+//acceder a propiedades con punto y array 
+console.log(libro.titulo)
+console.log(libro["titulo"])
+
+// cambio el valor de una propiedad
+libro.titulo = "Desarrollo Web con React"
+console.log(libro.titulo)
+
+// crear un variable
+let pages = "numPaginas";
+console.log(libro[pages])
+console.log(libro)
