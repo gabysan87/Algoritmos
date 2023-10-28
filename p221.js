@@ -23,10 +23,13 @@ const obj2 = {
     e: "e"
 }
 
+//Antes se realizaba asi 
 const nuevoObject = Object.assign({}, obj1, obj2)
 
 console.log(nuevoObject)
 
+
+//trae todas las propiedades usando el spread operator 
 const nuevoObject2 = {...obj1, ...obj2}
 
 console.log(nuevoObject2)

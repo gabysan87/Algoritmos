@@ -1,0 +1,7 @@
+const evenNumbers = (array, number) => {
+    // good luck
+
+    return array.filter((num) => num % 2  === 0).slice(-3)
+  }
+
+  console.log(evenNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9], 3))
