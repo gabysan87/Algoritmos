@@ -29,13 +29,21 @@ return `${name} ${addres}`
 console.log(addProperty(object))
 
 
-
+//operador REST 
 const restOperator = (name, lastName, ...info) => {
 // let arr = [1,2,3,4]
 //     const [one, two, ...numbers] = arr
 return info
 }
 
-// restOperator("Gabriela", "Sanchez", "oliverprada86@gmail.com",937814958) 
+// restOperator("Gabriela", "Sanchez", "gabysan04876@gmail.com",937814958) 
 
-console.log(restOperator("Gabriela", "Sanchez", "gabysan04876@gmail.com",975420058) );
+console.log(restOperator("Gabriela", "Sanchez", "hola", "gabysan0487@gmail.com",975420058, ) );
+
+
+const arr = (one, two, ...numbers) =>{
+    return numbers
+}
+
+console.log(arr(1,2,3,4))
+
