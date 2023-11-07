@@ -14,7 +14,7 @@
 const vowelIndex = (str) => {
 return str.split("").map((item, index) => { 
    return item.match(/[aeiouy]/gi) ? index + 1 : item
-}).filter((element) => typeof (element) === "number")
+}).filter((element) => typeof element === "number")
 }
 
 console.log(vowelIndex("Mmmm"))

@@ -5,7 +5,7 @@
 // Retorno: "Charlie"
 
 
-const numberOfCharacters = ["Alice", "Bob", "Charlie", "David", "Eve", "gabriela"]
+const numberOfCharacters = ["Alice", "Bob", "Charlie", "David", "Eve", "gabriela" ]
 
 const result = (arr, long) => {
     return arr.find((item) => item.length > long)
