@@ -46,3 +46,14 @@ let tabla = "";
 //   }
 //   return table.slice(0, -1)
 // }
+
+
+// const multiTable = (number) => {
+
+//   let numToMultiplicate= []
+//    for (let j = 1; j <= 10; j++) {
+//        numToMultiplicate.push(j)
+//    }
+//    return numToMultiplicate.map((item)=> ${item} * ${number} = ${number*item}).join("\n")
+
+//  }
