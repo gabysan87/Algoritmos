@@ -11,9 +11,14 @@
 
 const arr2bin = (arr) => {
   //GET STARTED
-  return 
+  if (arr.some((element) => typeof element !== "number")) {
+    return false;
+  } else {
+    return arr.reduce((acc, curr) => acc + curr, 0).toString(2);
+  }
 };
 
-console.log(arr2bin([1,2]))
-console.log(arr2bin([1,2,3,4,5]))
-console.log(arr2bin([1,10,100,1000]))
+console.log(arr2bin([1, 2]));
+console.log(arr2bin([1, 2, 3, 4, 5]));
+console.log(arr2bin([1, 10, 100, 1000]));
+console.log(arr2bin([1, 2, "a"]));
