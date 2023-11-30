@@ -3,12 +3,13 @@
 
 // ¡¡Desastre!! ¡¡El barco se ha incendiado!!
 
-// Se le proporcionará una cadena que enumera muchos elementos relacionados con el barco. Si alguno de estos elementos es "Fuego", debes entrar en acción. Cambie cualquier instancia de "Fuego" a "~~". Luego devuelve la cadena.
+// Se le proporcionará una cadena que enumera muchos elementos relacionados con el barco. Si alguno de estos elementos es "Fuego", debes entrar en acción. Cambie cualquier instancia de "Fire" a "~~". Luego devuelve la cadena.
 
 // ¡Ir al trabajo!
 
 const fireFight= (s) => {
-  
+   return s.replace(/Fire/g, `~~`)
+//    return s.split(' ').map((item) => item === 'Fire' ? item = '~~' : item).join(' ');
 }
 
 console.log(fireFight("Boat Rudder Mast Boat Hull Water Fire Boat Deck Hull Fire Propeller Deck Fire Deck Boat Mast"))

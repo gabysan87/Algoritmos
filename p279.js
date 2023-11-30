@@ -113,7 +113,7 @@ const arrayPalindrome = ['a', 'b', 'c', 'b', 'a'];
 
 const isPalindrome = (array) => {
 const stringOriginal = array.join('');
-const stringInvertido = array.slice().reverse().join('');
+const stringInvertido = array.reverse().join('');
 
 return stringOriginal === stringInvertido;
 }
