@@ -25,7 +25,7 @@ console.log(commonElements(array1,array2))
 // se utiliza el metodo filter para crear un nuevo array que contiene solo los elementos que están presentes tanto en arr1 como en arr2. La función includes se utiliza para verificar si un elemento específico está presente en el segundo array (arr2).
 
 // Ejercicio 3:
-// Enunciado: Escribe una función que reciba un array de palabras y devuelva una nueva array con la longitud de cada palabra.
+// Enunciado: Escribe una función que reciba un array de palabras y devuelva un nueva array con la longitud de cada palabra.
 
 const array = ['JavaScript', 'Python', 'HTML', 'CSS'];
 
@@ -35,7 +35,7 @@ const wordLength = (letter) => {
 
 console.log(wordLength(array))
 
-//map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
+//map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos. uso length para que devuelva la cantidad de elementos 
 
 // Ejercicio 4:
 // Escribe una función que invierta un array dado.
@@ -84,6 +84,10 @@ const contarImpares = (num) => {
 }
 
 console.log(contarImpares(array7))
+
+// filter() crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada, ength para poder contar la cantidad de elementos que son impares 
+
+
 
 // Ejercicio 8:
 // Enunciado: Escribe una función que concatene dos arrays.
