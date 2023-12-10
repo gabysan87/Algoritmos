@@ -34,7 +34,7 @@ const persona2 = {
 
   console.log(persona2)
 
-//   Ejercicio 4: Modificar una propiedad
+//   Ejercicio 4: Modificar el valor de una propiedad
 
 // Enunciado: Modifica la propiedad edad del objeto persona para que tenga un valor de 35.
 
@@ -68,6 +68,9 @@ const user = {
     name : "Laura",
     age: 30
 }
+// 3 formas de verificar 
+console.log(user.hasOwnProperty("age"))
+console.log("age" in user)
 
 if ("email" in user) {
 console.log(`La propiedad "email" existe en el objeto`)
@@ -88,7 +91,10 @@ const auto = {
 
 for (const key in auto) {
     console.log(`${key}: ${auto[key]}`);
+console.log(key, auto[key] )
 }
+
+
 
 // Ejercicio 8: Copiar un objeto
 
@@ -96,12 +102,15 @@ for (const key in auto) {
 
 const original = {
     a: 1,
-    b: 2
+    b: 2,
+    c: 3
 };
 
 const clon = Object.assign({}, original);
 console.log(clon)
 
+const clon1 = {...original}
+console.log(clon1)
 
 // Ejercicio 9: Fusionar objetos
 
