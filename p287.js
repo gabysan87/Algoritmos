@@ -12,7 +12,8 @@ let libros11 = [
   ];
 
   const autorConMasLibros = (arr) => {
-    return arr.sort((aut1, aut2) => aut1.autor.localeCompare(aut2.autor))
+    const result = arr.sort((aut1, aut2) => aut1.autor.localeCompare(aut2.autor)) 
+    return result
 }
   
   console.table(autorConMasLibros(libros11)); // Salida: "J.R.R. Tolkien"
