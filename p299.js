@@ -12,10 +12,7 @@ const productos = [
 // 2000
 
 const sumProperties = (arr, precio) => {
-  const result = arr.reduce((acc, curr) => {
-    return acc + curr.precio;
-  }, 0);
-  return result
+ return arr.reduce((acc, curr) => acc + curr.precio, 0 );
 };
 
 console.log(sumProperties(productos, "precio"));

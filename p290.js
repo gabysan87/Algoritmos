@@ -12,7 +12,7 @@ const estudiantes = [
 //   ]
 
 const transformarArray = (arr) => {
-return result = arr.map((item) =>{
+return  arr.map((item) => {
     return {
         ...item,
     calificaciones: item.calificaciones.map((element) => element + 5)
