@@ -10,7 +10,7 @@ const product = [
 
 const calculateAverage = (arr, price) => {
     const result = arr.reduce((acc, curr) => {
-        return acc + curr[price]
+        return acc + curr.price
     }, 0)
 return result / arr.length
 }

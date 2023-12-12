@@ -11,8 +11,8 @@ const frutas = [
   ];
 
   const contarOcurrencias = (arr, propiedad, valor) => {
-    return arr.reduce((acumulador, elemento) => {
-        return acumulador + (elemento[propiedad] === valor ? 1 : 0);
+    return arr.reduce((acc, element) => {
+        return acc + (element[propiedad] === valor ? 1 : 0);
       }, 0);
     
   }

@@ -5,9 +5,10 @@
 // Ejemplo de Salida: [1, 2, 3, 4, 5]
 
 const removeDuplicate = (number) => {
-  const newNumber = new Set(number);
+  return [...new Set(number)]
+  // const newNumber = new Set(number);
 
-  return [...newNumber]
+  // return [...newNumber]
 };
 
 console.log(removeDuplicate([1, 2, 2, 3, 4, 4, 5]));
