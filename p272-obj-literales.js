@@ -14,7 +14,7 @@ direccion: {
 console.log( persona)
 
 
-// Asignacion no relizar no me clona el objeto 
+// Asignacion no realizar no me clona el objeto 
 // const persona2 = persona; 
 
 //Clonacion

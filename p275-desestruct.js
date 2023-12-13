@@ -1,10 +1,8 @@
 // Desestructuracion de objetos
 // Asignacion Desestructurante
 
-
-
 // renombrar
-// const {nombre:nombre2} = persona;
+// const {nombre: nombre2} = persona;
 // console.log( nombre2)
 
 // const {nombre, edad, clave} = persona;

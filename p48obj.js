@@ -110,6 +110,7 @@ const direccion = {
   ciudad: "Sevilla",
   calle: "Calle Principal"
 };
+
 const perfil = { ...person10, ...direccion };
 console.log(perfil);
 

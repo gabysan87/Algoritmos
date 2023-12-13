@@ -95,7 +95,6 @@ console.log(key, auto[key] )
 }
 
 
-
 // Ejercicio 8: Copiar un objeto
 
 // Enunciado: Crea un nuevo objeto llamado clon que sea una copia del objeto original.
