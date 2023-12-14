@@ -1,0 +1,21 @@
+// 7: Extraer Nombres
+// Planteamiento: Crea un array con solo las propiedades de nombres.
+
+// Entrada:
+
+const personas = [
+  { nombre: 'Juan', edad: 20 },
+  { nombre: 'Ana', edad: 22 },
+  { nombre: 'Carlos', edad: 25 }
+];
+
+const result = (arr) =>{
+ return arr.map((item) => item.nombre)
+}
+
+console.log(result(personas))
+
+// Salida:
+
+// Crear un nuevo array con los nombres
+// ['Juan', 'Ana', 'Carlos']
