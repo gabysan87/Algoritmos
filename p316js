@@ -9,11 +9,11 @@ const personas = [
   { nombre: 'Carlos', edad: 25 }
 ];
 
-const result = (arr) =>{
+const result = (arr,age) =>{
  return arr.map((item) => item.nombre)
 }
 
-console.log(result(personas))
+console.log(result(personas,25))
 
 // Salida:
 

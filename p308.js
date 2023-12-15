@@ -14,4 +14,4 @@ const result = (arr) => {
 
 console.log(result(personas))
 
-// Salida: [{ nombre: "María", edad: 30 }, { nombre: "Carlos", edad: 22 }]
+// Salida: [{ nombre: "María", edad: 30 }, { nombre: "Carlos", edad: 22 }, { nombre: "Ana", edad: 28 }]

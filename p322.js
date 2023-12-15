@@ -15,5 +15,4 @@ const estudiantesSinPromedio = estudiantes.map(estudiante => {
 
   console.log(estudiantesSinPromedio)
 // Salida:
-
 // Eliminar la propiedad 'promedio' de todos los estudiantes

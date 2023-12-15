@@ -14,7 +14,7 @@ const productos = [
 
 const factorTransformacion = 1.1;
 
-const transformarPrecios = (arr,factor ) =>{
+const transformarPrecios = (arr,factor) =>{
 return arr.map((item) => {
     return {
      ...item, 

@@ -10,8 +10,8 @@ const productos = [
 ];
 const disponibilidadFiltrada = false;
 
-const filtrarProductosPorDisponibilidad = (arr, disponibilidad) => {
-return arr.filter((item) => item.disponible === disponibilidad)
+const filtrarProductosPorDisponibilidad = (arr, disp) => {
+return arr.filter((item) => item.disponible === disp)
 }
 
 console.log(filtrarProductosPorDisponibilidad(productos,disponibilidadFiltrada))

@@ -8,6 +8,8 @@ const productos = [
   { nombre: 'Teléfono', precio: 500 },
   { nombre: 'Tablet', precio: 300 }
 ];
+
+
 const result = (arr) => {
     return arr.map((item) => {
         return {
@@ -21,3 +23,4 @@ console.table(result(productos))
 // Salida
 // Incrementar el precio de todos los productos en un 10%
 // [{ nombre: 'Portátil', precio: 1320 }, { nombre: 'Teléfono', precio: 550 }, { nombre: 'Tablet', precio: 330 }]
+

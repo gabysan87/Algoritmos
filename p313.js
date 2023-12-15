@@ -16,7 +16,5 @@ console.log(result(empleados))
 
 
 // Salida:
-
-
 // Crear un nuevo array con la propiedad 'nombre-salario'
 // ['Ana - 50000', 'Carlos - 60000', 'Luisa - 55000']

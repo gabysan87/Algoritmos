@@ -7,8 +7,8 @@ const personas = [
   { nombre: "Juan", edad: 20 },
   { nombre: "Ana", edad: 22 },
   { nombre: "Carlos", edad: 25 },
-  { nombre: "Luisa", edad: 30 },
-  { nombre: "Maria", edad: 31 },
+  { nombre: "Luisa", edad: 31 },
+  { nombre: "Maria", edad: 30 },
 ];
 
 const result = (arr) => {
@@ -20,7 +20,7 @@ const result = (arr) => {
   return ageRange;
 };
 
-console.log(result(personas));
+console.table(result(personas));
 
 // Salida:
 

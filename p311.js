@@ -11,7 +11,7 @@ const empleados = [
 ];
 
 const result = (arr) => {
-    return 
+    return arr.map((item) => `${item.nombre} - ${item.salario}`)
 
 }
 

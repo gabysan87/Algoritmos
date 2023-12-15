@@ -9,10 +9,10 @@
 
 // console.log(comiencenPorLetra(["Apple", "Arandano", "Banana", "azucar"], "a"))
 
-const letteArray = ["Apple", "Arandano", "Banana", "azucar"];
+const letterArray = ["Apple", "Arandano", "Banana", "azucar"];
 
-const comiencenPorLetra = (str, letra) => {
-  return str.filter((item) => item[0].toLowerCase() === letra);
+const comiencenPorLetra = (str, letter) => {
+  return str.filter((item) => item[0].toLowerCase() === letter);
 };
 
-console.log(comiencenPorLetra(letteArray, "a"));
+console.log(comiencenPorLetra(letterArray, "a"));
