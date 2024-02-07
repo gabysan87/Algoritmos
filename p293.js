@@ -8,7 +8,7 @@ const product = [
     {name: "Tablet", price: 500}
 ]
 
-const calculateAverage = (arr, price) => {
+const calculateAverage = (arr) => {
     const result = arr.reduce((acc, curr) => {
         return acc + curr.price
     }, 0)
