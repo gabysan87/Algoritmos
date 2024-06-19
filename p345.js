@@ -43,8 +43,7 @@ console.log(searchAge(usuario))
 // Desestructuración con rest operator:
 //    Planteamiento: Tenemos un objeto que representa un estudiante con nombre, edad, ciudad y notas. Utiliza la desestructuración junto con el operador rest para obtener el nombre y la edad del estudiante, y el resto de las propiedades en un objeto llamado infoAdicional.
 //    Entrada:
-   
-   const estudiante = {
+      const estudiante = {
        nombre: 'Luis',
        edad: 22,
        ciudad: 'Sevilla',
@@ -54,13 +53,12 @@ console.log(searchAge(usuario))
 const {nombre, edad, ...infoAdicional} = estudiante 
 
 const studentAndAdditionalInformation = ({nombre, edad, ...infoAdicional }) => {
-return {nombre , edad, infoAdicional }
-// // `Nombre: ${nombre} , Edad: ${edad}, Información adicional: ${infoAdicional} `
+return `Nombre: ${nombre}, Edad: ${edad}, Información adicional: ${JSON.stringify(infoAdicional)}`
 }
 
 
-// console.log((nombre, edad, infoAdicional))
 console.log(studentAndAdditionalInformation(estudiante))
+
 
 //    Salida esperada:
 //    Nombre: Luis
