@@ -1,5 +1,5 @@
 // tabla de multiplicar para numeros
-// Tu objetivo es devolver la tabla de multiplicar porque numbersiempre es un número entero del 1 al 10.
+// Tu objetivo es devolver la tabla de multiplicar porque number siempre es un número entero del 1 al 10.
 
 // Por ejemplo, una tabla de multiplicar (cadena) para number == 5se parece a la siguiente:
 

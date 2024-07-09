@@ -7,10 +7,10 @@ const dataUser = {
 }
 
 
-
 const {name, age:años} = dataUser
 
 console.log(dataUser)
+console.log(dataUser["correo electronico"])
 
  let arr = ["gaby", 36, "sanchez", true, false, 123 ]
 
