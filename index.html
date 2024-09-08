@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea HTML</title>
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+  <body>
+    <form >
+      <label>
+        Nombre:
+        <input type="text" name="firstname" />
+      </label>
+      <br />
+      <br />
+
+      <label>
+        Apellido:
+        <input type="text" name="lastname" />
+      </label>
+      <br />
+      <br />
+
+      <label>
+        Email:
+        <input type="email" id="email" placeholder="email@mail.com" required />
+      </label>
+      <br />
+      <br />
+
+      <label>
+        Dirección 1:
+        <input type="text" name="address one" />
+      </label>
+      <br />
+      <br />
+
+      <label>
+        Dirección 2:
+        <input type="text" name="address two" />
+      </label>
+      <br>
+      <br>
+
+     <label>
+        Fecha de nacimiento: 
+        <input type="date" id="start" name="fecha" value="2018-07-22" min="1974-01-01" max="2024-08-14" />
+     </label>
+     <br >
+     <br >
+     
+     <fieldset>
+        <legend>Selecciona tu estatus:</legend>
+          <div>
+          <input type="radio" id="foreign" name="status" value="foreign" />
+          <label for="foreign">
+            Extranjero
+        </label>
+        </div>
+      
+        <div>
+          <input type="radio" id="national" name="status" value="national" />
+          <label for="national">
+            Nacional
+        </label>
+        </div>
+      </fieldset>
+
+      <br >
+      <label>
+        <input type="checkbox" id="checkbox" value="accept-policy" /> 
+        Aceptar politica de privacidad
+      </label>
+      <br>
+      <br>
+
+      <input type="submit"  />
+      
+    </form>
+  </body>
+</html>

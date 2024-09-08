@@ -22,21 +22,25 @@ console.log("El número invertido es: " + numeroInvertido);
 // digito = 12345 % 10 = 5
 // numeroInvertido = 0 * 10 + 5 = 5
 // numero = Math.floor(12345 / 10) = 1234
+
 // Iteración 2:
 // numero = 1234
 // digito = 1234 % 10 = 4
 // numeroInvertido = 5 * 10 + 4 = 54
 // numero = Math.floor(1234 / 10) = 123
+
 // Iteración 3:
 // numero = 123
 // digito = 123 % 10 = 3
 // numeroInvertido = 54 * 10 + 3 = 543
 // numero = Math.floor(123 / 10) = 12
+
 // Iteración 4:
 // numero = 12
 // digito = 12 % 10 = 2
 // numeroInvertido = 543 * 10 + 2 = 5432
 // numero = Math.floor(12 / 10) = 1
+
 // Iteración 5:
 // numero = 1
 // digito = 1 % 10 = 1
