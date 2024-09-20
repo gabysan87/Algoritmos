@@ -22,6 +22,7 @@ result.forEach(element => {
     //si no esta, la inicializaos con 1
     acc[element] = 1
   } 
+  // acc[element] = acc[element] ? acc[element] +1 : 1
 });
 
 //devolvemos el contador actualizado

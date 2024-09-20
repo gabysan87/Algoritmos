@@ -11,13 +11,15 @@ const groupPeopleByAge = (arr) => {
     return arr.reduce((acc, {nombre,edad}) => {
         //curr :  Es el objeto actual del arreglo durante cada iteración, que contiene nombre y edad.
     // const { nombre, edad } = curr;
-    //si la edad ya existe como clave en  el acumulador, añadimos el nombre 
+    //si la edad ya existe como clave en el acumulador, añadimos el nombre 
     if ( acc[edad]){
         acc[edad].push(nombre)
     }else {
         //si no existe, creamos un nuevo array con el nombre
         acc[edad] = [nombre]
     }
+    //otra solucion con el operador ternario 
+    //  acc[edad] ? acc[edad].push(nombre) : acc[edad] = [nombre];
     return acc
     },{})
     

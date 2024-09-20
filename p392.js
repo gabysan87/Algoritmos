@@ -8,6 +8,14 @@ let productos = [
 ];
 
 
+const priceByCategory = (arr) => {
+return arr.reduce((acc, {categoria, precio}) => {
+  acc[categoria] = (acc[categoria] || 0) + precio;
+  return acc
+})
+}
+console.log(priceByCategory(productos))
+
 // salida
 // {
 //   "Ropa": 50,

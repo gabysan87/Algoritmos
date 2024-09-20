@@ -11,8 +11,9 @@ const ventas = [
 
 
 const countProduct = (arr) => {
-    return arr.reduce((acc, curr, _index, array) => {
-      const result = array.filter((item) => item.producto === curr.producto);
+  
+    return arr.reduce((acc, curr) => {
+      const result = arr.filter((item) => item.producto === curr.producto);
       acc[curr.producto] = {
         suma: result.reduce((acum, current) => acum + current.ventas, 0),
         promedio: result.reduce((acum, current) => acum + current.ventas, 0) / result.length,
