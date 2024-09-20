@@ -62,8 +62,6 @@ const elementQuantity = [
 
 const result = (arr) => {
     return arr.filter((item) => item.continent === "Europa" && item.language === "JavaScript")
-
 }
 
-
-console.log(result(elementQuantity))
+console.table(result(elementQuantity))

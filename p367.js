@@ -2,11 +2,17 @@
 
 // Ejemplo:
 
+
 const moverCeros = (arr) => {
-    return arr
+    // Filtrar todos los elementos que no sean ceros
+const withoutNumberZero = arr.filter((item) => item !== 0)
+
+  // Contar cuántos ceros hay en el array
+const numberZero = arr.filter((num) => num === 0)
+
+// Concatenar el array sin ceros con el array de ceros
+return [...withoutNumberZero, ...numberZero ]
 }
 
 
 console.log(moverCeros([false, 1, 0, 1, 2, 0, 1, 3, "a"])) 
-
-// [false,1,1,2,1,3,"a",0,0

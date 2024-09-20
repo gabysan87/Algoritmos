@@ -41,13 +41,13 @@ const joinTwoArray = (arr1, arr2) => {
 return arr1.map(element => {
     const pedido = arr2.find(item => item.idCliente === element.id);
     return {
-      ...element,
-      producto: pedido ? pedido.producto : null
+      ...element, // copia del array
+      producto: pedido ? pedido.producto : null 
     };
   });
 };
 
-// console.log(joinTwoArray(clientes, pedidos))
+console.log(joinTwoArray(clientes, pedidos))
 
 // Salida:
 // [

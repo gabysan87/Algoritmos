@@ -5,7 +5,7 @@
 // Ejemplo de Salida: 15
 
 const addNumbers = (num) => {
-    return num.reduce(((acc, curr) => acc + curr))
+    return num.reduce(((acc, curr) => acc + curr),0)
 }
 
 console.log(addNumbers([1, 2, 3, 4, 5]))
