@@ -9,6 +9,7 @@ let ventas = [
 
 const addProductsSold = (arr) => {
 return arr.reduce((acc, {producto, cantidad}) => {
+    
 acc[producto] = acc[producto] ? acc[producto] + cantidad : cantidad 
 return acc
 },{})
