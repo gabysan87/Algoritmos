@@ -9,7 +9,7 @@ const personas = [
 
 const agruparYContar = (arr, property) => {
     return arr.reduce((acc, curr) => {
-        const objKey = curr[property]
+        const objKey = curr[property] // Obtenemos el valor de la propiedad especificada
         acc[objKey] = acc[objKey] ? acc[objKey] + 1 : 1 
 return acc
     },{})
