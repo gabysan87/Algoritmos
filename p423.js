@@ -1,6 +1,6 @@
 // Dado un array de objetos, crea una función que transforme cada objeto en uno nuevo con propiedades modificadas.
 // Entrada:
-// javascript
+
 const libros = [
     { titulo: "1984", autor: "Orwell" },
     { titulo: "El Hobbit", autor: "Tolkien" }
