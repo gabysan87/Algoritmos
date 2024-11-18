@@ -1,7 +1,7 @@
 //Ejemplo 2: Esperar múltiples promesas
 // Usando await, esperamos que varias operaciones asincrónicas terminen antes de continuar.
 
-async function obtenerDatosMultiples() {
+const obtenerDatosMultiples = async  () => {
     try {
         const [usuario, posts] = await Promise.all([
             fetch("https://jsonplaceholder.typicode.com/users/1").then((res) => res.json()),
@@ -15,3 +15,5 @@ async function obtenerDatosMultiples() {
 }
 
 obtenerDatosMultiples();
+
+//En este caso, Promise.all espera que todas las promesas se completen antes de continuar, permitiendo hacer solicitudes simultáneas.

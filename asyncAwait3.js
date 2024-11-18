@@ -1,11 +1,11 @@
 // Ejemplo 3: Función asincrónica con temporizador (setTimeout)
 // En este ejemplo, simulamos un retraso en una operación usando setTimeout.
 
-function esperar(ms) {
+const  esperar = (ms) => {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function procesarConRetraso() {
+const  procesarConRetraso = async () => {
     console.log("Iniciando...");
     await esperar(2000); // Espera 2 segundos
     console.log("Proceso completado después de 2 segundos");

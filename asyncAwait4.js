@@ -1,7 +1,7 @@
 //Ejemplo 4: Cadena de operaciones dependientes
 // Este ejemplo muestra cómo manejar múltiples operaciones asincrónicas donde el resultado de una depende de la anterior.
 
-async function obtenerUsuarioYPosts() {
+const obtenerUsuarioYPosts = async () => {
     try {
         const usuario = await fetch("https://jsonplaceholder.typicode.com/users/1").then((res) => res.json());
         console.log("Usuario:", usuario);

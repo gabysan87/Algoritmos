@@ -1,7 +1,7 @@
 // Ejemplo 5: Manejo de errores en operaciones asincrónicas
 // Aquí, usamos try y catch para manejar errores en una función asincrónica.
 
-async function obtenerDatosConError() {
+const obtenerDatosConError = async () => {
     try {
         const respuesta = await fetch("https://jsonplaceholder.typicode.com/invalid-url");
         if (!respuesta.ok) {

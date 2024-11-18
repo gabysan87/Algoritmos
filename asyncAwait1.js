@@ -1,9 +1,9 @@
 //Ejemplo 1: Solicitud HTTP simple con fetch
 // Este ejemplo usa fetch para obtener datos desde una API simulada.
 
-async function obtenerDatos() {
+const obtenerDatos = async  () => {
     try {
-        const respuesta = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+        const respuesta = await fetch("https://swapi.dev/api/people/1/");
         const datos = await respuesta.json();
         console.log(datos);
     } catch (error) {
