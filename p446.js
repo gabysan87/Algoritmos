@@ -31,18 +31,30 @@
     },
   ];
 
-  const result = (array) => {
+  // const result = (arr) => {
     // for (let i = 0; i < array.length; i++ ){
     //     console.log(arr[i])
     // }
 
-    return array.forEach((student )=> {
-        console.log(student)
-    });
-  }
+  //   return arr.forEach((student, index, array)=> {
+  //       console.log(student)
+  //       console.log(index)
+  //       console.log(array)
+  //       return array
+  //   });
+  // }
+// console.log(result(students))
+  
+const result  = students.map(({name, lastname, age}) => ({
+  student: `${name} ${lastname}`,
+  age
+}))
+.filter(student => student.age > 20)
+.sort((a,b) => b.age - a.age)
+.reduce((acc, curr) => acc + curr.age, 0 )
 
-  
-  
+console.log(result)
+
 //   const developers = [
 //     {
 //       id: 1,
