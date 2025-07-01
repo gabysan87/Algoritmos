@@ -16,9 +16,9 @@
 
 const isDigit = (s) => {
   //your code
- return parseFloat(s) === Number(s)
-//  return s == parseFloat(s) ? true : false;
-//  return Number(s) === parseFloat(s)
+  return parseFloat(s) === Number(s);
+  //  return s == parseFloat(s) ? true : false;
+  //  return Number(s) === parseFloat(s)
 };
 
 console.log(isDigit("s2324"));
