@@ -57,3 +57,17 @@ console.log(groupAnimals(animales));
 //   p: ["perro", "pato", "pez"],
 //   g: ["gato", "gorila"]
 // }
+
+const usuario = {
+  nombre: "Luisa",
+  edad: 30,
+  ciudad: "Valparaíso",
+};
+
+const { nombre, edad, ciudad } = usuario;
+
+function saludar({ nombre, ciudad }) {
+  return `Hola soy  ${nombre} y vivo en ${ciudad}`;
+}
+
+console.log(saludar(usuario));
