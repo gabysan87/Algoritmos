@@ -53,13 +53,16 @@ console.log(modifiedValue(user));
 // Salida esperada: primero = 10, resto = [20, 30, 40]
 
 const numbers = [10, 20, 30, 40];
+const [primero, ...resto] = numbers;
 
-const result = (num) => {
-  const [primero, ...resto] = num;
-  return {
-    primero,
-    resto,
-  };
-};
+// const result = (num) => {
+//   const [primero, ...resto] = num;
+//   return {
+//     primero,
+//     resto,
+//   };
+// };
 
-console.log(result(numbers));
+// console.log(result(numbers));
+console.log("primero =", primero, "resto =", resto);
+// console.log("resto =", resto);
