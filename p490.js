@@ -29,9 +29,7 @@ console.log(minMax(3, 3, 2));
 
 //2- Contraseña segura
 // Crea una función validarPassword(password) que:
-
 // Devuelva "Segura" si tiene al menos 8 caracteres y contiene un número.
-
 // Devuelva "Insegura" en caso contrario.
 
 const validatePassword = (password) => {
