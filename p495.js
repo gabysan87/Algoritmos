@@ -48,7 +48,7 @@ const inventoryAnalysis = (sales) => {
 console.log(inventoryAnalysis(ventas));
 // Salida esperada:
 // javascript{
-//   ingresoTotal: 32350,
+//   ingresoTotal: 28925,
 //   productoMasVendido: { producto: 'Mouse', cantidadTotal: 45 },
-//   stockPromedioRestante: 56
+//   stockPromedioRestante: 61
 // }
