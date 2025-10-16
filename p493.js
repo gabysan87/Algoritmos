@@ -57,3 +57,11 @@ const sumArray = (array) => {
   return array.reduce((acc, curr) => acc + curr, 0);
 };
 console.log(sumArray([1, 2, 3, 4, 5]));
+
+//Tienes un arreglo de números y quieres obtener un nuevo arreglo donde cada número esté multiplicado por 2.
+const numeros = [1, 2, 3, 4, 5];
+
+const multiplyByTwo = (array) => {
+  return array.map((num) => num * 2);
+};
+console.log(multiplyByTwo(numeros));
